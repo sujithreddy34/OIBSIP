@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: row; */
+    background: rgb(196, 236, 249);
+}
+
+.s-header {
+    margin-left: 80px;
+    font-family: 'Keania One', cursive;
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+
+.s-img {
+    border-radius: 50%;
+    height: 220px
+}
+
+.g-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 400px;
+
+}
+@media (min-width:760px){
+
+
+    .parent{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.child{
+    width:50%;
+    padding-left:20px;
+}
+
+.child2{
+    /* margin-bottom: 426px; */
+    width:50%;
+}
+
+
+
+
+footer{
+    text-align: center;
+}
+
+.header1{
+    
+
+width: 365px;
+height: 194px;
+left: 215px;
+top: 1069px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 65px;
+/* or 148% */
+
+text-align: center;
+
+color: #000000;
+}
+
+
+.para1{
+    width: 483px;
+
+left: 147px;
+top: 1304px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 35px;
+}
+
+.header2{
+    
+   width:350px;
+    
+    
+    left: 215px;
+    top: 1069px;
+    
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 65px;
+/* or 148% */
+
+text-align: center;
+
+color: #000000;
+}
+
+.para2{
+    width: 483px;
+
+    left: 147px;
+    /* top: 1304px; */
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    }
+
+
+    .header3{
+      
+
+left: 195px;
+top: 2222px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 65px;
+/* or 148% */
+
+text-align: center;
+
+color: #000000;
+margin-left:90px;
+    }
+
+
+    .para3{
+        width: 400px; 
+
+    left: 147px;
+    /* top: 1304px; */
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    margin-left: 220px;
+    /* padding-left: 50px; */
+    }
+
+    .div-3{
+        margin-top: 180px;
+        /* padding-left: 50px; */
+    }
+
+    .div-2{
+        margin-left:60px;
+    }
